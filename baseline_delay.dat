@@ -1,0 +1,285 @@
+=== RPL DAO Replay Attack Mitigation Simulation ===
+Scenario: baseline_delay
+Mitigation: DISABLED
+Nodes: 20
+Attackers: 0
+Duration: 60s
+====================================================
+Node 0: ROOT
+Node 1: Regular node
+Node 2: Regular node
+Node 3: Regular node
+Node 4: Regular node
+Node 5: Regular node
+Node 6: Regular node
+Node 7: Regular node
+Node 8: Regular node
+Node 9: Regular node
+Node 10: Regular node
+Node 11: Regular node
+Node 12: Regular node
+Node 13: Regular node
+Node 14: Regular node
+Node 15: Regular node
+Node 16: Regular node
+Node 17: Regular node
+Node 18: Regular node
+Node 19: Regular node
+
+Starting simulation for 60 seconds...
+[3.00211s] Node fe80::200:ff:fe00:2 SENT DAO (seq=1) to fe80::200:ff:fe00:1
+[3.00211s] Node fe80::200:ff:fe00:3 SENT DAO (seq=1) to fe80::200:ff:fe00:1
+[3.00211s] Node fe80::200:ff:fe00:4 SENT DAO (seq=1) to fe80::200:ff:fe00:1
+[3.00211s] Node fe80::200:ff:fe00:5 SENT DAO (seq=1) to fe80::200:ff:fe00:1
+[3.00211s] Node fe80::200:ff:fe00:6 SENT DAO (seq=1) to fe80::200:ff:fe00:1
+[3.00211s] Node fe80::200:ff:fe00:7 SENT DAO (seq=1) to fe80::200:ff:fe00:1
+[3.00211s] Node fe80::200:ff:fe00:8 SENT DAO (seq=1) to fe80::200:ff:fe00:1
+[3.00211s] Node fe80::200:ff:fe00:9 SENT DAO (seq=1) to fe80::200:ff:fe00:1
+[3.00211s] Node fe80::200:ff:fe00:a SENT DAO (seq=1) to fe80::200:ff:fe00:1
+[3.00211s] Node fe80::200:ff:fe00:b SENT DAO (seq=1) to fe80::200:ff:fe00:1
+[3.00211s] Node fe80::200:ff:fe00:c SENT DAO (seq=1) to fe80::200:ff:fe00:1
+[3.00211s] Node fe80::200:ff:fe00:d SENT DAO (seq=1) to fe80::200:ff:fe00:1
+[3.00211s] Node fe80::200:ff:fe00:e SENT DAO (seq=1) to fe80::200:ff:fe00:1
+[3.00211s] Node fe80::200:ff:fe00:f SENT DAO (seq=1) to fe80::200:ff:fe00:1
+[3.00211s] Node fe80::200:ff:fe00:10 SENT DAO (seq=1) to fe80::200:ff:fe00:1
+[3.00211s] Node fe80::200:ff:fe00:11 SENT DAO (seq=1) to fe80::200:ff:fe00:1
+[3.00211s] Node fe80::200:ff:fe00:12 SENT DAO (seq=1) to fe80::200:ff:fe00:1
+[3.00211s] Node fe80::200:ff:fe00:13 SENT DAO (seq=1) to fe80::200:ff:fe00:1
+[3.00211s] Node fe80::200:ff:fe00:14 SENT DAO (seq=1) to fe80::200:ff:fe00:1
+[3.00856s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:5 (seq=1, delay=6.4476ms)
+[3.01501s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:11 (seq=1, delay=12.9036ms)
+[3.02147s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:2 (seq=1, delay=19.3586ms)
+[3.02794s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:8 (seq=1, delay=25.8286ms)
+[3.03441s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:4 (seq=1, delay=32.3066ms)
+[3.04088s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:e (seq=1, delay=38.7696ms)
+[3.04735s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:13 (seq=1, delay=45.2426ms)
+[3.0538s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:d (seq=1, delay=51.6906ms)
+[3.06028s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:c (seq=1, delay=58.1756ms)
+[3.06674s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:3 (seq=1, delay=64.6286ms)
+[3.07324s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:12 (seq=1, delay=71.1306ms)
+[3.07971s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:14 (seq=1, delay=77.5986ms)
+[3.08618s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:10 (seq=1, delay=84.0716ms)
+[3.09264s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:a (seq=1, delay=90.5346ms)
+[3.0992s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:6 (seq=1, delay=97.0926ms)
+[3.10605s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:9 (seq=1, delay=103.946ms)
+[3.11268s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:f (seq=1, delay=110.575ms)
+[3.11942s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:b (seq=1, delay=117.308ms)
+[3.12594s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:7 (seq=1, delay=123.831ms)
+[13.0021s] Node fe80::200:ff:fe00:2 SENT DAO (seq=2) to fe80::200:ff:fe00:1
+[13.0021s] Node fe80::200:ff:fe00:3 SENT DAO (seq=2) to fe80::200:ff:fe00:1
+[13.0021s] Node fe80::200:ff:fe00:4 SENT DAO (seq=2) to fe80::200:ff:fe00:1
+[13.0021s] Node fe80::200:ff:fe00:5 SENT DAO (seq=2) to fe80::200:ff:fe00:1
+[13.0021s] Node fe80::200:ff:fe00:6 SENT DAO (seq=2) to fe80::200:ff:fe00:1
+[13.0021s] Node fe80::200:ff:fe00:7 SENT DAO (seq=2) to fe80::200:ff:fe00:1
+[13.0021s] Node fe80::200:ff:fe00:8 SENT DAO (seq=2) to fe80::200:ff:fe00:1
+[13.0021s] Node fe80::200:ff:fe00:9 SENT DAO (seq=2) to fe80::200:ff:fe00:1
+[13.0021s] Node fe80::200:ff:fe00:a SENT DAO (seq=2) to fe80::200:ff:fe00:1
+[13.0021s] Node fe80::200:ff:fe00:b SENT DAO (seq=2) to fe80::200:ff:fe00:1
+[13.0021s] Node fe80::200:ff:fe00:c SENT DAO (seq=2) to fe80::200:ff:fe00:1
+[13.0021s] Node fe80::200:ff:fe00:d SENT DAO (seq=2) to fe80::200:ff:fe00:1
+[13.0021s] Node fe80::200:ff:fe00:e SENT DAO (seq=2) to fe80::200:ff:fe00:1
+[13.0021s] Node fe80::200:ff:fe00:f SENT DAO (seq=2) to fe80::200:ff:fe00:1
+[13.0021s] Node fe80::200:ff:fe00:10 SENT DAO (seq=2) to fe80::200:ff:fe00:1
+[13.0021s] Node fe80::200:ff:fe00:11 SENT DAO (seq=2) to fe80::200:ff:fe00:1
+[13.0021s] Node fe80::200:ff:fe00:12 SENT DAO (seq=2) to fe80::200:ff:fe00:1
+[13.0021s] Node fe80::200:ff:fe00:13 SENT DAO (seq=2) to fe80::200:ff:fe00:1
+[13.0021s] Node fe80::200:ff:fe00:14 SENT DAO (seq=2) to fe80::200:ff:fe00:1
+[13.0043s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:2 (seq=2, delay=2.1586ms)
+[13.0064s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:11 (seq=2, delay=4.3406ms)
+[13.0086s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:9 (seq=2, delay=6.5006ms)
+[13.0108s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:12 (seq=2, delay=8.7306ms)
+[13.013s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:a (seq=2, delay=10.9286ms)
+[13.0152s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:3 (seq=2, delay=13.0876ms)
+[13.0175s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:d (seq=2, delay=15.3436ms)
+[13.0197s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:b (seq=2, delay=17.6076ms)
+[13.0219s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:14 (seq=2, delay=19.7756ms)
+[13.0241s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:6 (seq=2, delay=21.9576ms)
+[13.0263s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:8 (seq=2, delay=24.1466ms)
+[13.0285s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:c (seq=2, delay=26.3516ms)
+[13.0306s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:10 (seq=2, delay=28.5186ms)
+[13.0328s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:f (seq=2, delay=30.7366ms)
+[13.0351s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:13 (seq=2, delay=32.9986ms)
+[13.0373s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:5 (seq=2, delay=35.1906ms)
+[13.0397s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:e (seq=2, delay=37.5526ms)
+[13.0419s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:4 (seq=2, delay=39.7746ms)
+[13.0445s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:7 (seq=2, delay=42.3566ms)
+[23.0021s] Node fe80::200:ff:fe00:2 SENT DAO (seq=3) to fe80::200:ff:fe00:1
+[23.0021s] Node fe80::200:ff:fe00:3 SENT DAO (seq=3) to fe80::200:ff:fe00:1
+[23.0021s] Node fe80::200:ff:fe00:4 SENT DAO (seq=3) to fe80::200:ff:fe00:1
+[23.0021s] Node fe80::200:ff:fe00:5 SENT DAO (seq=3) to fe80::200:ff:fe00:1
+[23.0021s] Node fe80::200:ff:fe00:6 SENT DAO (seq=3) to fe80::200:ff:fe00:1
+[23.0021s] Node fe80::200:ff:fe00:7 SENT DAO (seq=3) to fe80::200:ff:fe00:1
+[23.0021s] Node fe80::200:ff:fe00:8 SENT DAO (seq=3) to fe80::200:ff:fe00:1
+[23.0021s] Node fe80::200:ff:fe00:9 SENT DAO (seq=3) to fe80::200:ff:fe00:1
+[23.0021s] Node fe80::200:ff:fe00:a SENT DAO (seq=3) to fe80::200:ff:fe00:1
+[23.0021s] Node fe80::200:ff:fe00:b SENT DAO (seq=3) to fe80::200:ff:fe00:1
+[23.0021s] Node fe80::200:ff:fe00:c SENT DAO (seq=3) to fe80::200:ff:fe00:1
+[23.0021s] Node fe80::200:ff:fe00:d SENT DAO (seq=3) to fe80::200:ff:fe00:1
+[23.0021s] Node fe80::200:ff:fe00:e SENT DAO (seq=3) to fe80::200:ff:fe00:1
+[23.0021s] Node fe80::200:ff:fe00:f SENT DAO (seq=3) to fe80::200:ff:fe00:1
+[23.0021s] Node fe80::200:ff:fe00:10 SENT DAO (seq=3) to fe80::200:ff:fe00:1
+[23.0021s] Node fe80::200:ff:fe00:11 SENT DAO (seq=3) to fe80::200:ff:fe00:1
+[23.0021s] Node fe80::200:ff:fe00:12 SENT DAO (seq=3) to fe80::200:ff:fe00:1
+[23.0021s] Node fe80::200:ff:fe00:13 SENT DAO (seq=3) to fe80::200:ff:fe00:1
+[23.0021s] Node fe80::200:ff:fe00:14 SENT DAO (seq=3) to fe80::200:ff:fe00:1
+[23.0043s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:2 (seq=3, delay=2.1586ms)
+[23.0064s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:e (seq=3, delay=4.3196ms)
+[23.0086s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:4 (seq=3, delay=6.5156ms)
+[23.0108s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:6 (seq=3, delay=8.6776ms)
+[23.013s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:a (seq=3, delay=10.8846ms)
+[23.0153s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:11 (seq=3, delay=13.1906ms)
+[23.0175s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:7 (seq=3, delay=15.4176ms)
+[23.0197s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:8 (seq=3, delay=17.6196ms)
+[23.0219s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:b (seq=3, delay=19.7976ms)
+[23.0241s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:10 (seq=3, delay=22.0286ms)
+[23.0264s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:9 (seq=3, delay=24.2776ms)
+[23.0286s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:14 (seq=3, delay=26.4636ms)
+[23.0309s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:d (seq=3, delay=28.7746ms)
+[23.0331s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:3 (seq=3, delay=30.9746ms)
+[23.0352s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:c (seq=3, delay=33.1356ms)
+[23.0375s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:13 (seq=3, delay=35.4416ms)
+[23.0397s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:5 (seq=3, delay=37.6046ms)
+[23.0422s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:12 (seq=3, delay=40.0606ms)
+[23.0443s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:f (seq=3, delay=42.2296ms)
+[33.0021s] Node fe80::200:ff:fe00:2 SENT DAO (seq=4) to fe80::200:ff:fe00:1
+[33.0021s] Node fe80::200:ff:fe00:3 SENT DAO (seq=4) to fe80::200:ff:fe00:1
+[33.0021s] Node fe80::200:ff:fe00:4 SENT DAO (seq=4) to fe80::200:ff:fe00:1
+[33.0021s] Node fe80::200:ff:fe00:5 SENT DAO (seq=4) to fe80::200:ff:fe00:1
+[33.0021s] Node fe80::200:ff:fe00:6 SENT DAO (seq=4) to fe80::200:ff:fe00:1
+[33.0021s] Node fe80::200:ff:fe00:7 SENT DAO (seq=4) to fe80::200:ff:fe00:1
+[33.0021s] Node fe80::200:ff:fe00:8 SENT DAO (seq=4) to fe80::200:ff:fe00:1
+[33.0021s] Node fe80::200:ff:fe00:9 SENT DAO (seq=4) to fe80::200:ff:fe00:1
+[33.0021s] Node fe80::200:ff:fe00:a SENT DAO (seq=4) to fe80::200:ff:fe00:1
+[33.0021s] Node fe80::200:ff:fe00:b SENT DAO (seq=4) to fe80::200:ff:fe00:1
+[33.0021s] Node fe80::200:ff:fe00:c SENT DAO (seq=4) to fe80::200:ff:fe00:1
+[33.0021s] Node fe80::200:ff:fe00:d SENT DAO (seq=4) to fe80::200:ff:fe00:1
+[33.0021s] Node fe80::200:ff:fe00:e SENT DAO (seq=4) to fe80::200:ff:fe00:1
+[33.0021s] Node fe80::200:ff:fe00:f SENT DAO (seq=4) to fe80::200:ff:fe00:1
+[33.0021s] Node fe80::200:ff:fe00:10 SENT DAO (seq=4) to fe80::200:ff:fe00:1
+[33.0021s] Node fe80::200:ff:fe00:11 SENT DAO (seq=4) to fe80::200:ff:fe00:1
+[33.0021s] Node fe80::200:ff:fe00:12 SENT DAO (seq=4) to fe80::200:ff:fe00:1
+[33.0021s] Node fe80::200:ff:fe00:13 SENT DAO (seq=4) to fe80::200:ff:fe00:1
+[33.0021s] Node fe80::200:ff:fe00:14 SENT DAO (seq=4) to fe80::200:ff:fe00:1
+[33.0043s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:2 (seq=4, delay=2.1586ms)
+[33.0064s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:d (seq=4, delay=4.3306ms)
+[33.0086s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:f (seq=4, delay=6.5016ms)
+[33.0108s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:10 (seq=4, delay=8.6916ms)
+[33.013s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:c (seq=4, delay=10.8526ms)
+[33.0151s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:e (seq=4, delay=13.0166ms)
+[33.0173s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:9 (seq=4, delay=15.2286ms)
+[33.0195s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:3 (seq=4, delay=17.3956ms)
+[33.0217s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:a (seq=4, delay=19.5616ms)
+[33.0238s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:7 (seq=4, delay=21.7416ms)
+[33.026s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:4 (seq=4, delay=23.9066ms)
+[33.0282s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:b (seq=4, delay=26.0916ms)
+[33.0305s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:12 (seq=4, delay=28.3466ms)
+[33.0326s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:11 (seq=4, delay=30.5376ms)
+[33.0348s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:6 (seq=4, delay=32.6946ms)
+[33.037s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:5 (seq=4, delay=34.8626ms)
+[33.0393s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:13 (seq=4, delay=37.1436ms)
+[33.0418s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:8 (seq=4, delay=39.7026ms)
+[33.0441s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:14 (seq=4, delay=42.0396ms)
+[43.0021s] Node fe80::200:ff:fe00:2 SENT DAO (seq=5) to fe80::200:ff:fe00:1
+[43.0021s] Node fe80::200:ff:fe00:3 SENT DAO (seq=5) to fe80::200:ff:fe00:1
+[43.0021s] Node fe80::200:ff:fe00:4 SENT DAO (seq=5) to fe80::200:ff:fe00:1
+[43.0021s] Node fe80::200:ff:fe00:5 SENT DAO (seq=5) to fe80::200:ff:fe00:1
+[43.0021s] Node fe80::200:ff:fe00:6 SENT DAO (seq=5) to fe80::200:ff:fe00:1
+[43.0021s] Node fe80::200:ff:fe00:7 SENT DAO (seq=5) to fe80::200:ff:fe00:1
+[43.0021s] Node fe80::200:ff:fe00:8 SENT DAO (seq=5) to fe80::200:ff:fe00:1
+[43.0021s] Node fe80::200:ff:fe00:9 SENT DAO (seq=5) to fe80::200:ff:fe00:1
+[43.0021s] Node fe80::200:ff:fe00:a SENT DAO (seq=5) to fe80::200:ff:fe00:1
+[43.0021s] Node fe80::200:ff:fe00:b SENT DAO (seq=5) to fe80::200:ff:fe00:1
+[43.0021s] Node fe80::200:ff:fe00:c SENT DAO (seq=5) to fe80::200:ff:fe00:1
+[43.0021s] Node fe80::200:ff:fe00:d SENT DAO (seq=5) to fe80::200:ff:fe00:1
+[43.0021s] Node fe80::200:ff:fe00:e SENT DAO (seq=5) to fe80::200:ff:fe00:1
+[43.0021s] Node fe80::200:ff:fe00:f SENT DAO (seq=5) to fe80::200:ff:fe00:1
+[43.0021s] Node fe80::200:ff:fe00:10 SENT DAO (seq=5) to fe80::200:ff:fe00:1
+[43.0021s] Node fe80::200:ff:fe00:11 SENT DAO (seq=5) to fe80::200:ff:fe00:1
+[43.0021s] Node fe80::200:ff:fe00:12 SENT DAO (seq=5) to fe80::200:ff:fe00:1
+[43.0021s] Node fe80::200:ff:fe00:13 SENT DAO (seq=5) to fe80::200:ff:fe00:1
+[43.0021s] Node fe80::200:ff:fe00:14 SENT DAO (seq=5) to fe80::200:ff:fe00:1
+[43.0043s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:2 (seq=5, delay=2.1586ms)
+[43.0064s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:f (seq=5, delay=4.3226ms)
+[43.0086s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:d (seq=5, delay=6.4826ms)
+[43.0108s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:4 (seq=5, delay=8.6866ms)
+[43.013s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:9 (seq=5, delay=10.8516ms)
+[43.0151s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:14 (seq=5, delay=13.0316ms)
+[43.0173s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:10 (seq=5, delay=15.2176ms)
+[43.0195s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:8 (seq=5, delay=17.4046ms)
+[43.0217s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:a (seq=5, delay=19.5636ms)
+[43.0241s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:7 (seq=5, delay=21.9446ms)
+[43.0264s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:3 (seq=5, delay=24.2436ms)
+[43.0287s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:5 (seq=5, delay=26.6116ms)
+[43.0309s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:12 (seq=5, delay=28.7936ms)
+[43.0333s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:b (seq=5, delay=31.1676ms)
+[43.0355s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:6 (seq=5, delay=33.4326ms)
+[43.0378s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:e (seq=5, delay=35.6796ms)
+[43.04s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:11 (seq=5, delay=37.8576ms)
+[43.0426s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:c (seq=5, delay=40.4426ms)
+[43.0453s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:13 (seq=5, delay=43.1956ms)
+[53.0021s] Node fe80::200:ff:fe00:2 SENT DAO (seq=6) to fe80::200:ff:fe00:1
+[53.0021s] Node fe80::200:ff:fe00:3 SENT DAO (seq=6) to fe80::200:ff:fe00:1
+[53.0021s] Node fe80::200:ff:fe00:4 SENT DAO (seq=6) to fe80::200:ff:fe00:1
+[53.0021s] Node fe80::200:ff:fe00:5 SENT DAO (seq=6) to fe80::200:ff:fe00:1
+[53.0021s] Node fe80::200:ff:fe00:6 SENT DAO (seq=6) to fe80::200:ff:fe00:1
+[53.0021s] Node fe80::200:ff:fe00:7 SENT DAO (seq=6) to fe80::200:ff:fe00:1
+[53.0021s] Node fe80::200:ff:fe00:8 SENT DAO (seq=6) to fe80::200:ff:fe00:1
+[53.0021s] Node fe80::200:ff:fe00:9 SENT DAO (seq=6) to fe80::200:ff:fe00:1
+[53.0021s] Node fe80::200:ff:fe00:a SENT DAO (seq=6) to fe80::200:ff:fe00:1
+[53.0021s] Node fe80::200:ff:fe00:b SENT DAO (seq=6) to fe80::200:ff:fe00:1
+[53.0021s] Node fe80::200:ff:fe00:c SENT DAO (seq=6) to fe80::200:ff:fe00:1
+[53.0021s] Node fe80::200:ff:fe00:d SENT DAO (seq=6) to fe80::200:ff:fe00:1
+[53.0021s] Node fe80::200:ff:fe00:e SENT DAO (seq=6) to fe80::200:ff:fe00:1
+[53.0021s] Node fe80::200:ff:fe00:f SENT DAO (seq=6) to fe80::200:ff:fe00:1
+[53.0021s] Node fe80::200:ff:fe00:10 SENT DAO (seq=6) to fe80::200:ff:fe00:1
+[53.0021s] Node fe80::200:ff:fe00:11 SENT DAO (seq=6) to fe80::200:ff:fe00:1
+[53.0021s] Node fe80::200:ff:fe00:12 SENT DAO (seq=6) to fe80::200:ff:fe00:1
+[53.0021s] Node fe80::200:ff:fe00:13 SENT DAO (seq=6) to fe80::200:ff:fe00:1
+[53.0021s] Node fe80::200:ff:fe00:14 SENT DAO (seq=6) to fe80::200:ff:fe00:1
+[53.0043s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:2 (seq=6, delay=2.1586ms)
+[53.0064s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:11 (seq=6, delay=4.3326ms)
+[53.0086s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:f (seq=6, delay=6.5246ms)
+[53.0108s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:c (seq=6, delay=8.7006ms)
+[53.013s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:e (seq=6, delay=10.8816ms)
+[53.0152s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:5 (seq=6, delay=13.0506ms)
+[53.0173s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:8 (seq=6, delay=15.2286ms)
+[53.0196s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:b (seq=6, delay=17.4526ms)
+[53.0218s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:9 (seq=6, delay=19.6686ms)
+[53.024s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:13 (seq=6, delay=21.8816ms)
+[53.0263s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:3 (seq=6, delay=24.1566ms)
+[53.0285s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:12 (seq=6, delay=26.4346ms)
+[53.0307s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:a (seq=6, delay=28.6196ms)
+[53.033s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:10 (seq=6, delay=30.8866ms)
+[53.0352s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:6 (seq=6, delay=33.0586ms)
+[53.0373s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:7 (seq=6, delay=35.2266ms)
+[53.0396s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:d (seq=6, delay=37.5066ms)
+[53.0418s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:4 (seq=6, delay=39.7126ms)
+[53.0443s] Node fe80::200:ff:fe00:1 ACCEPTED DAO from fe80::200:ff:fe00:14 (seq=6, delay=42.1526ms)
+
+=== Simulation Results ===
+DAO Messages Sent: 114
+DAO Messages Received: 114
+DAO Messages Blocked (Replays): 0
+
+=== Security Metrics ===
+Attack Success Rate: 0%
+Attack Detection Rate: 0%
+Mitigation Effectiveness: N/A (No attackers)
+
+=== Network Performance Metrics ===
+Control Message Overhead: 0%
+Routing Table Updates: 114
+Avg Updates Per Node: 5.7
+Average End-to-End Delay: 29.1456 ms
+Total Delay Measurements: 114
+Total Energy Cost (units): 2052
+Avg Energy Per Node: 102.6
+
+=== Resource Utilization ===
+Memory Overhead (bytes): 456
+Avg Memory Per Node (bytes): 22.8
+False Positive Rate: 0%
+
+=== Routing Correctness Metrics ===
+Estimated PDR: 100%
+Network Integrity Score: 100%
